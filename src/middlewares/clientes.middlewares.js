@@ -1,4 +1,4 @@
-import { db } from "../database/database.connection.js"
+import db from "../database/database.connection.js"
 
 export async function validatePostCustomer(req, res, next) {
     const { cpf } = req.body

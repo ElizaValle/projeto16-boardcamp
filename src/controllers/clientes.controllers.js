@@ -1,4 +1,4 @@
-import { db } from "../database/database.connection.js"
+import db from "../database/database.connection.js"
 
 export async function postCustomers(req, res) {
     const { name, phone, cpf, birthday } = req.body
